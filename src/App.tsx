@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.png';
 import './App.css';
+import Header from './Components/header'
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+interface IState {
+  result: string
+  filelength: number
+}
+
+class App extends React.Component<{}, IState>{
+  public constructor(props: any) {
+    super(props)
+    this.state = {
+      result: "",
+      filelength: 0,
+    }
+  }
+
+  public render() {
+    return (
+      <div>
+        <Header />
+      </div>
+    );
+  }
+  public resultstate = (resultString: string, filelen: any) => {
+    this.setState({ result: resultString, filelength: filelen })
+  }
 }
 
 export default App;

@@ -1,0 +1,16 @@
+.header {
+    background-color: orange;
+    height: 100px;
+    display: flex;
+    align-items: left;
+    font-size: 10px;
+    color: white;
+  }
+  
+  .logo {
+    min-height: 10%;
+    max-height: 50%;
+    width: auto;
+    pointer-events: none;
+    border: #61dafb;
+  }
