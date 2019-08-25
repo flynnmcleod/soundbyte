@@ -9,6 +9,11 @@
     padding-top:10px;
 
   }
+
+  .space {
+    height: 200px;
+
+}
   
   .videoPlayer{
     width:50%;
@@ -16,13 +21,6 @@
 
   }
 
-  .usersOnline{
-      width:50%;
-      background-color:whitesmoke;
-      pointer-events: none;
-      border-radius: 25px;
-      text-align:left;
-  }
 
   .video {
     width:95%;
@@ -35,20 +33,10 @@
     width:50%;
     height: 500px;
     overflow-y: scroll;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position:  right bottom;
 
   }
   
-  .addVideo {
-    width: 95%;
-
-  }
-
-  .addVideo:hover {
-    opacity: 0.5;
-
-  }
-
-  .myText {
-    width: 90%;
-
-  }

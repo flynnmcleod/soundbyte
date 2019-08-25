@@ -16,7 +16,7 @@
   }
 
   .login {
-    min-width: 100%;
+    width: 100%;
     height: 20px;
     background-color: white;
     color: red;
@@ -28,7 +28,7 @@
   }
 
   .settings {
-    min-width: 50%;
+    width: 50%;
     height: 20px;
     background-color: white;
     color: red;
@@ -41,7 +41,7 @@
   }
 
   .share {
-    min-width: 50%;
+    width: 50%;
     height: 20px;
     background-color: white;
     color: red;

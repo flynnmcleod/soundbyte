@@ -1,0 +1,24 @@
+.video-list {
+    font-family: cursive;
+
+}
+
+.delete {
+    background-color: white;
+    border: 6px solid red;
+    padding: none;
+    border-radius: 40px;
+    font-family: serif;
+    float:right;
+
+}
+
+.videoBox {
+    border-bottom: 2px dotted black;
+
+}
+
+.videoTitle {
+    width:300px;
+
+}
